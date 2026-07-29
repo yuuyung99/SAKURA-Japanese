@@ -1,0 +1,1156 @@
+﻿@media (max-width: 768px) {
+
+    .hero {
+        min-height: 820px;
+        padding-top: 130px;
+        padding-bottom: 0;
+    }
+
+    .hero-background {
+        background:
+        /* TOP FADE */
+        linear-gradient( to bottom, rgba(3, 10, 20, 0.88) 0%, rgba(3, 10, 20, 0.55) 10%, rgba(3, 10, 20, 0) 25% ),
+        /* BOTTOM FADE */
+        linear-gradient( to top, rgba(3, 10, 20, 0.92) 0%, rgba(3, 10, 20, 0.55) 10%, rgba(3, 10, 20, 0) 28% ),
+        /* HERO IMAGE */
+        url("images/hero-bg.png") 68% center / auto 100% no-repeat;
+        background-color: var(--color-navy);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-inner {
+        position: relative;
+        justify-content: center;
+        min-height: 72px;
+    }
+
+
+    .brand {
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+
+    .phone-cta {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+
+    /* =========================
+       HEADER
+    ========================== */
+
+    .header-inner {
+        position: relative;
+        min-height: 72px;
+    }
+
+
+    .brand {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+    }
+
+
+    .phone-cta {
+        display: none;
+    }
+
+
+    /* =========================
+       HERO
+    ========================== */
+
+    .hero {
+        min-height: 660px;
+        padding-top: 190px;
+        padding-bottom: 50px;
+    }
+
+
+    .hero-content {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+
+    /* EYEBROW */
+
+    .hero-eyebrow {
+        margin-bottom: 18px;
+        font-size: 11px;
+        letter-spacing: 0.16em;
+        color: #808080;
+    }
+
+
+        .hero-eyebrow::before {
+            width: 28px;
+            background-color: #808080;
+        }
+
+
+    /* TITLE */
+
+    .hero-title {
+        max-width: 100%;
+        font-size: 38px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        color: #333d4a;
+    }
+
+
+        .hero-title span {
+            margin-top: 20px;
+            font-size: 55px;
+            line-height: 0.85;
+        }
+
+
+    /* DESCRIPTION */
+
+    .hero-description {
+        max-width: 320px;
+        margin-top: 24px;
+        font-size: 13px;
+        line-height: 1.75;
+    }
+
+
+    /* BUTTON */
+
+    .hero-button {
+        min-height: 54px;
+        margin-top: 28px;
+        padding-left: 20px;
+        gap: 16px;
+        font-size: 10px;
+        letter-spacing: 0.08em;
+    }
+
+
+        .hero-button i {
+            width: 32px;
+            height: 32px;
+        }
+
+
+    /* NOTE */
+
+    .hero-note {
+        margin-top: 24px;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+    }
+
+
+    /* SCROLL */
+
+    .hero-scroll {
+        display: none;
+    }
+}
+
+/* =====================================================
+   MOBILE RESPONSIVE
+===================================================== */
+
+@media (max-width: 768px) {
+
+
+    /* =================================================
+       CONTACT POPUP
+    ================================================= */
+
+    .contact-popup {
+        align-items: flex-end;
+        padding: 0;
+    }
+
+
+    .contact-popup-container {
+        width: 100%;
+        max-height: 92vh;
+        padding: 42px 22px 28px;
+        border-radius: 20px 20px 0 0;
+        transform: translateY(100%);
+    }
+
+
+    .contact-popup.active
+
+    .contact-popup-container {
+        transform: translateY(0);
+    }
+
+
+    /* CLOSE BUTTON */
+
+    .contact-popup-close,
+    .success-popup-close {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        min-height: 36px;
+        flex-shrink: 0;
+        padding: 0;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+    }
+
+    /* EYEBROW */
+
+    .contact-popup-eyebrow {
+        margin-bottom: 12px;
+        font-size: 9px;
+        letter-spacing: 0.16em;
+    }
+
+
+    /* TITLE */
+
+    .contact-popup-title {
+        font-size: 28px;
+        line-height: 1.08;
+    }
+
+
+        .contact-popup-title span {
+            margin-top: 5px;
+            font-size: 28px;
+        }
+
+
+    /* DESCRIPTION */
+
+    .contact-popup-description {
+        margin: 18px 0 24px;
+        font-size: 12px;
+        line-height: 1.65;
+    }
+
+
+    /* FORM */
+
+    .contact-form {
+        gap: 14px;
+    }
+
+
+    /* LABEL */
+
+    .form-field label {
+        font-size: 10px;
+    }
+
+
+    /* INPUT */
+
+    .form-field input,
+    .form-field select {
+        height: 50px;
+        font-size: 16px;
+    }
+
+
+    /* SUBMIT BUTTON */
+
+    .contact-form-submit {
+        min-height: 54px;
+        margin-top: 6px;
+        font-size: 10px;
+    }
+
+
+    /* FORM NOTE */
+
+    .contact-form-note {
+        font-size: 9px;
+    }
+
+
+
+    /* =================================================
+       SUCCESS POPUP
+    ================================================= */
+
+    .success-popup {
+        align-items: flex-end;
+        padding: 0;
+    }
+
+
+    .success-popup-container {
+        width: 100%;
+        padding: 46px 24px 28px;
+        border-radius: 20px 20px 0 0;
+        transform: translateY(100%);
+    }
+
+
+    .success-popup.active
+
+    .success-popup-container {
+        transform: translateY(0);
+    }
+
+
+    /* SUCCESS CLOSE */
+
+    .success-popup-close {
+        top: 14px;
+        right: 16px;
+        width: 34px;
+        height: 34px;
+    }
+
+
+    /* SUCCESS ICON */
+
+    .success-popup-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+
+    /* SUCCESS EYEBROW */
+
+    .success-popup-eyebrow {
+        font-size: 9px;
+        letter-spacing: 0.16em;
+    }
+
+
+    /* SUCCESS TITLE */
+
+    .success-popup-title {
+        font-size: 34px;
+    }
+
+
+    /* SUCCESS MESSAGE */
+
+    .success-popup-message {
+        margin: 18px auto 24px;
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+
+    /* SUCCESS BUTTON */
+
+    .success-popup-button {
+        min-height: 52px;
+        font-size: 10px;
+    }
+}
+
+/* =====================================================
+   PROBLEM SECTION - MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .problem-section {
+        min-height: auto;
+        padding: 45px 0;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    /* TITLE */
+
+    .problem-title {
+        max-width: 320px;
+        margin: 0 auto 30px;
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+
+    /* LIST */
+
+    .problem-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        justify-items: center;
+    }
+
+
+    /* CARD */
+
+    .problem-card {
+        width: 100%;
+        max-width: 165px;
+        height: 165px;
+        padding: 18px 14px;
+    }
+
+
+    .problem-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+
+        .problem-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+
+    .problem-card p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+
+    /* Ẩn connector trên mobile */
+
+    .problem-connector {
+        display: none;
+    }
+
+
+    /* Quote */
+
+    .problem-quote {
+        gap: 8px;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+
+        .problem-quote p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+
+        .problem-quote strong {
+            font-size: 17px;
+        }
+
+
+    .quote-mark {
+        font-size: 40px;
+    }
+    .problem-card:last-child {
+        grid-column: 1 / -1;
+        justify-self: center;
+        max-width: 165px;
+    }
+}
+
+
+/* =====================================================
+   PROBLEM SECTION - MOBILE
+===================================================== */
+
+@media (max-width:768px) {
+
+    .problem-section {
+        background-image: url("images/program-bgmobile.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+
+/*=====================================================
+    ROADMAP MOBILE
+=====================================================*/
+
+@media (max-width:768px) {
+
+    .roadmap-section {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .roadmap-title {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .roadmap-heading {
+        margin-bottom: 35px;
+    }
+
+    .roadmap-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .roadmap-item {
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+    }
+
+    .roadmap-level {
+        margin-bottom: 18px;
+    }
+
+    .roadmap-circle {
+        width: 78px;
+        height: 78px;
+    }
+
+        .roadmap-circle img {
+            width: 42px;
+        }
+
+    .roadmap-badge {
+        margin-top: 12px;
+    }
+
+    .roadmap-item h3 {
+        margin: 0 0 2px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1;
+        min-height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roadmap-item li {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .roadmap-item ul {
+        width: max-content;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+    }
+
+    /* Timeline */
+
+    .roadmap-arrow {
+        width: 2px;
+        height: 45px;
+        padding: 0;
+        margin: 12px 0;
+    }
+
+        .roadmap-arrow span {
+            width: 2px;
+            height: 45px;
+        }
+
+            .roadmap-arrow span::after {
+                top: auto;
+                bottom: -2px;
+                right: 50%;
+                width: 8px;
+                height: 8px;
+                transform: translateX(50%) rotate(135deg);
+            }
+
+
+    /* Kanji */
+
+
+    .roadmap-kanji {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: "Noto Serif JP", serif;
+        font-size: 250px;
+        font-weight: 700;
+        line-height: 1;
+        color: #ffffff;
+        opacity: .035;
+        user-select: none;
+        pointer-events: none;
+        z-index: 1;
+        transform-origin: center;
+        animation: kanjiFloat 10s ease-in-out infinite;
+    }
+
+    .roadmap-kanji-left {
+        left: 0px;
+        top: 30%;
+    }
+
+    .roadmap-kanji-right {
+        right: 0px;
+        top: 80%;
+        animation-delay: 5s;
+    }
+
+    @keyframes kanjiFloat {
+
+        0% {
+            transform: translateY(-50%) scale(1);
+            opacity: .03;
+        }
+
+        50% {
+            transform: translateY(-50%) scale(1.3);
+            opacity: .05;
+        }
+
+        100% {
+            transform: translateY(-50%) scale(1);
+            opacity: .03;
+        }
+    }
+
+
+    /* Timeline giữa các card */
+    .roadmap-item {
+        position: relative;
+        padding-bottom: 45px;
+    }
+
+        .roadmap-item:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 28px;
+            background: repeating-linear-gradient( to bottom, #d92d2d 0 6px, transparent 6px 12px );
+        }
+    .roadmap-section::before{
+        display: none;
+    }
+}
+
+/*=====================================================
+    BENEFIT SECTION - MOBILE
+=====================================================*/
+
+@media (max-width:768px) {
+
+    .benefit-section {
+        padding: 50px 0;
+    }
+
+
+    /*=========================
+        TITLE
+    =========================*/
+
+    .benefit-heading {
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .benefit-title {
+        font-size: 24px;
+        line-height: 1.3;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .benefit-title-line {
+        width: 40px;
+    }
+
+
+    /*=========================
+        LIST
+    =========================*/
+
+    .benefit-list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px 16px;
+        align-items: start;
+        justify-items: center;
+    }
+
+
+    /*=========================
+        ITEM
+    =========================*/
+
+    .benefit-item {
+        width: 100%;
+        max-width: 165px;
+    }
+
+
+        /* Icon cuối nằm giữa */
+
+        .benefit-item:last-child {
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
+
+
+    /*=========================
+        ICON
+    =========================*/
+
+    .benefit-icon {
+        width: 78px;
+        height: 78px;
+        margin-bottom: 15px;
+    }
+
+        .benefit-icon img {
+            width: 38px;
+            height: 38px;
+        }
+
+
+    /*=========================
+        TEXT
+    =========================*/
+
+    .benefit-item p {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+
+    /*=========================
+        CONNECTOR
+    =========================*/
+
+    .benefit-connector {
+        display: none;
+    }
+}
+
+/*=====================================================
+    TEACHER SECTION - MOBILE
+=====================================================*/
+
+@media (max-width:768px) {
+
+    .teacher-section {
+        padding: 55px 0;
+    }
+
+
+    /*=========================
+        WRAPPER
+    =========================*/
+
+    .teacher-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+
+
+    /*=========================
+        CONTENT
+    =========================*/
+
+    .teacher-content {
+        text-align: center;
+    }
+
+    .teacher-eyebrow {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+    }
+
+    .teacher-title {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+    .teacher-description {
+        margin: 0 auto 28px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .teacher-feature-list {
+        max-width: 320px;
+        margin: 0 auto 30px;
+    }
+
+        .teacher-feature-list li {
+            font-size: 15px;
+            gap: 10px;
+            text-align: left;
+        }
+
+    .teacher-button {
+        justify-content: center;
+        width: 100%;
+        max-width: 280px;
+    }
+
+
+    /*=========================
+        IMAGE
+    =========================*/
+
+    .teacher-image-area {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .teacher-image img {
+        width: 100%;
+    }
+
+
+    /*=========================
+        FLOATING CARD
+    =========================*/
+
+    .teacher-stat {
+        width: 120px;
+        padding: 12px;
+        border-radius: 14px;
+        backdrop-filter: blur(10px);
+    }
+
+        .teacher-stat strong {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+
+        .teacher-stat span {
+            font-size: 10px;
+            line-height: 1.4;
+        }
+
+
+    /* Vị trí các card */
+
+    .stat-1 {
+        top: 10px;
+        left: -10px;
+    }
+
+    .stat-2 {
+        top: 120px;
+        right: -10px;
+    }
+
+    .stat-3 {
+        bottom: 5px;
+        left: 1px;
+        z-index: 10;
+    }
+
+
+    /*=========================
+        BACKGROUND KANJI
+    =========================*/
+
+    .teacher-kanji {
+        font-size: 220px;
+    }
+
+    .teacher-kanji-left {
+        left: -90px;
+    }
+
+    .teacher-kanji-right {
+        right: -90px;
+    }
+}
+
+/*=====================================================
+    REVIEW SECTION - MOBILE
+=====================================================*/
+
+@media (max-width:768px) {
+
+    .review-section {
+        padding: 50px 0;
+    }
+
+
+    /*==============================
+        TITLE
+    ==============================*/
+
+    .review-heading {
+        margin-bottom: 30px;
+    }
+
+    .review-title {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+
+    /*==============================
+        WRAPPER
+    ==============================*/
+
+    .review-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+
+    /*==============================
+        REVIEW CARD
+    ==============================*/
+
+    .review-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 22px;
+        padding: 25px 20px;
+        border-radius: 22px;
+    }
+
+
+    /*==============================
+        AVATAR
+    ==============================*/
+
+    .review-avatar {
+        justify-content: center;
+    }
+
+        .review-avatar img {
+            width: 90px;
+            height: 90px;
+        }
+
+
+    /*==============================
+        CONTENT
+    ==============================*/
+
+    .review-content {
+        padding: 0;
+    }
+
+        .review-content p {
+            font-size: 15px;
+            line-height: 1.9;
+            text-align: left;
+        }
+
+
+    /*==============================
+        QUOTE
+    ==============================*/
+
+    .quote {
+        font-size: 24px;
+    }
+
+    .quote-left {
+        left: -2px;
+        top: -20px;
+    }
+
+    .quote-right {
+        right: -2px;
+        bottom: -15px;
+    }
+
+
+    /*==============================
+        INFO
+    ==============================*/
+
+    .review-info {
+        padding: 20px 0 0;
+        border-top: 1px solid rgba(0,0,0,.08);
+    }
+
+        .review-info::before {
+            display: none;
+        }
+
+        .review-info h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+    .review-stars {
+        justify-content: center;
+    }
+
+
+    /*==============================
+        STATISTICS
+    ==============================*/
+
+    .review-statistics {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .stat-box {
+        flex: 1;
+        padding: 20px 12px;
+        border-radius: 20px;
+    }
+
+    .stat-number {
+        font-size: 34px;
+        margin-bottom: 8px;
+    }
+
+    .stat-box p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+}
+
+
+/*=====================================================
+    FINAL CTA - MOBILE
+=====================================================*/
+
+@media (max-width:768px) {
+
+    .final-cta {
+        padding: 50px 0;
+        background: linear-gradient( 180deg, rgba(8,18,36,.80) 0%, rgba(8,18,36,.50) 35%, rgba(8,18,36,.15) 60%, rgba(8,18,36,0) 100% ), url("images/footer-bg-mobile.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .final-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .final-subtitle {
+        font-size: 12px;
+        margin-bottom: 12px;
+        letter-spacing: 1px;
+    }
+
+    .final-title {
+        font-size: 30px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+        .final-title span {
+            display: block;
+        }
+
+    .final-description {
+        max-width: 100%;
+        margin: 0 auto 28px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .final-button {
+        width: 100%;
+        max-width: 250px;
+        height: 45px;
+        margin: 0 auto;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .footer {
+        padding: 25px 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 18px;
+    }
+
+    .footer-brand {
+        justify-content: center;
+    }
+
+    .footer-center p {
+        font-size: 14px;
+    }
+
+    .footer-phone {
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        right: 15px;
+        bottom: 50px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .floating-contact {
+        left: 15px;
+        bottom: 30px;
+    }
+
+    .floating-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
